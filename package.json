@@ -1,0 +1,27 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000a\u0000i\u0000l\u0000w\u0000i\u0000n\u0000d\u0000\r\u0000 \u0000#\u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tailwind.css -o dist/css/styles.css",
+    "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raginrajvj/tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raginrajvj/tailwind/issues"
+  },
+  "homepage": "https://github.com/raginrajvj/tailwind#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.17"
+  }
+}
